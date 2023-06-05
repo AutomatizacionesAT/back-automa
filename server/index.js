@@ -5,6 +5,7 @@ import testRoutes from './routes/test.routes.js'
 
 const app = express()
 
+app.use(express.json())
 app.use(indexRoutes)
 app.use(testRoutes)
 
