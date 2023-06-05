@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 8px 16px;
+    background: yellow;
+    font-size: 1.8rem;
+    figure {
+        width: 70px;
+    }
+    .nav {
+        display: flex;
+        width: 50%;
+        ul {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+    }
+}
